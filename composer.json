@@ -1,0 +1,20 @@
+{
+    "name": "therobiulislam12/the-movie-database",
+    "description": "Simple Plugin for Movie Database",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Robiul Islam",
+            "email": "therobiulislam12@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TMDB\\": "includes/"
+        },
+        "files": ["includes/functions.php"]
+    }
+}
